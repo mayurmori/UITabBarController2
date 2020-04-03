@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="46B-4L-114">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nakul-->
+        <scene sceneID="XPv-aa-0ju">
+            <objects>
+                <viewController storyboardIdentifier="NakulViewController" id="wm9-5H-bfp" customClass="NakulViewController" customModule="UITabBarController2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9JL-Ik-Jw5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nakul" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuY-o7-krt">
+                                <rect key="frame" x="162.66666666666666" y="346.66666666666669" width="88.666666666666657" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by NakulViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDr-sK-0hz">
+                                <rect key="frame" x="105.66666666666669" y="397.66666666666669" width="203" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1086157635" green="0.79948586229999996" blue="0.72147989270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jDr-sK-0hz" firstAttribute="top" secondItem="tuY-o7-krt" secondAttribute="bottom" constant="8" symbolic="YES" id="e0T-fa-noi"/>
+                            <constraint firstItem="tuY-o7-krt" firstAttribute="centerX" secondItem="9JL-Ik-Jw5" secondAttribute="centerX" id="lZR-Po-mQ5"/>
+                            <constraint firstItem="tuY-o7-krt" firstAttribute="centerY" secondItem="9JL-Ik-Jw5" secondAttribute="centerY" id="nn2-8g-VVb"/>
+                            <constraint firstItem="jDr-sK-0hz" firstAttribute="centerX" secondItem="tuY-o7-krt" secondAttribute="centerX" id="rLE-5S-wcR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xeW-ZW-Za8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Nakul" id="pbT-rV-ppi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjA-cA-O7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="-43"/>
+        </scene>
+        <!--Mayur-->
+        <scene sceneID="DPa-fA-MYy">
+            <objects>
+                <viewController storyboardIdentifier="MayurViewController" id="XoC-4i-ed0" customClass="MayurViewController" customModule="UITabBarController2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aOj-W9-oiV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mayur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnP-lT-jcS">
+                                <rect key="frame" x="158.66666666666666" y="346.66666666666669" width="97" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by MayurViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfe-fM-mo3">
+                                <rect key="frame" x="103.66666666666669" y="397.66666666666669" width="207" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.68509119829999998" blue="0.68720485409999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wfe-fM-mo3" firstAttribute="centerX" secondItem="GnP-lT-jcS" secondAttribute="centerX" id="5ea-03-xYE"/>
+                            <constraint firstItem="GnP-lT-jcS" firstAttribute="centerY" secondItem="aOj-W9-oiV" secondAttribute="centerY" id="dL9-Dx-ht0"/>
+                            <constraint firstItem="Wfe-fM-mo3" firstAttribute="top" secondItem="GnP-lT-jcS" secondAttribute="bottom" constant="8" symbolic="YES" id="f6N-vR-7T2"/>
+                            <constraint firstItem="GnP-lT-jcS" firstAttribute="centerX" secondItem="aOj-W9-oiV" secondAttribute="centerX" id="kAA-mv-89r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lzm-iG-U7o"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mayur" id="uBM-NT-oNE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CX6-aJ-Oj4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="-707"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lRR-g9-da8">
+            <objects>
+                <tabBarController id="46B-4L-114" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="js1-7Q-YRn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XoC-4i-ed0" kind="relationship" relationship="viewControllers" id="kdD-KI-KMU"/>
+                        <segue destination="wm9-5H-bfp" kind="relationship" relationship="viewControllers" id="l88-u8-I3x"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cza-GF-X0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-630" y="-376"/>
+        </scene>
+    </scenes>
+</document>
